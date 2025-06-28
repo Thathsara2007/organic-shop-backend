@@ -17,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/Thathsara2007/organic-shop-backend/issues"
   },
-  "homepage": "https://github.com/Thathsara2007/organic-shop-backend#readme"
+  "homepage": "https://github.com/Thathsara2007/organic-shop-backend#readme",
+  "dependencies": {
+    "expres": "^0.0.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
 }
