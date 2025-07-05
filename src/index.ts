@@ -1,7 +1,7 @@
 import app from "./app"
 
 //  2. Define the application port
-const port = 3000;
+const port = ;
 
 //  4. Instructs the express app to listen on port 3000
 app.listen(port, () => {

@@ -9,6 +9,7 @@ app.use(express.json())
 
 //  3. Define a simple HTTP Get Request
 app.get('/', (req: Request, res: Response) => {
+    console.log(req.body)
     res.send("Hello Tharidi,  How are you....!");
 });
 
