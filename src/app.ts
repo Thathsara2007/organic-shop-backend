@@ -1,8 +1,6 @@
 import express, {Express, Request, Response} from "express";
 import productRoutes from "./routes/product.routes";
 
-
-
 //  1. Initialize the express app
 const app : Express = express();
 
@@ -11,7 +9,7 @@ const app : Express = express();
 app.use(express.json())
 app.use("/api/products", productRoutes); // 2.2 Register the product routes
 
-app.use()
+// app.use()
 
 
 //  3. Define a simple HTTP Get Request
