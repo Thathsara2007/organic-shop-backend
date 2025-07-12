@@ -1,6 +1,9 @@
 import express, {Express, Request, Response} from "express";
 import productRoutes from "./routes/product.routes";
 import cors from "cors";
+import contactRoutes from './routes/contact.routes';
+
+app.use('/api/contact', contactRoutes);
 
 //  1. Initialize the express app
 const app : Express = express();
